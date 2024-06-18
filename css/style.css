@@ -438,12 +438,13 @@ header .navbar2 .navtwo-right .nav-right__btn {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+  margin-bottom: 50px;
 }
 .aksiya .aksiya-items .aksiya-item {
   background-color: white;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
 }
 .aksiya .aksiya-items .aksiya-item .aksiya-item__img {
   padding: 30px 20px 0 20px;
@@ -475,6 +476,7 @@ header .navbar2 .navtwo-right .nav-right__btn {
 .aksiya .aksiya-items .aksiya-item .aksiya-item__text h3 {
   font-size: 22px;
   padding: 15px 0;
+  font-weight: 500;
 }
 .aksiya .aksiya-items .aksiya-item .aksiya-item__text h4 {
   font-size: 22px;
