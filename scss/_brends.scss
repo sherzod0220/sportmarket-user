@@ -1,0 +1,35 @@
+.brends{
+    width: 100%;
+    // padding: ;
+    background-color: #F2F2F2;
+    .brends-items{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        align-items: center;
+        background-color: white;
+        border-radius: 8px;
+        .brend-item{
+            padding: 20px;
+            display: flex;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width:768px){
+    .brends{
+        .brends-items{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+@media(max-width:768px){
+    .brends{
+        .brends-items{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}

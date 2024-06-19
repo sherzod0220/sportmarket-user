@@ -510,6 +510,93 @@ header .navbar2 .navtwo-right .nav-right__btn {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+.prim {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2;
+  gap: 25px;
+  padding-bottom: 50px;
+}
+.prim .prim-items {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.prim .prim-items .prim-item {
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px 40px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.prim .prim-items .prim-item i {
+  font-size: 28px;
+}
+
+@media (max-width: 992px) {
+  .prim .prim-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .prim .prim-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.onas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #F2F2F2;
+  padding-bottom: 50px;
+}
+.onas .onas-title {
+  color: #1F1D14;
+}
+.onas .onas-text {
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #1F1D14;
+}
+.onas .onas-text p {
+  color: white;
+}
+
+.brends {
+  width: 100%;
+  background-color: #F2F2F2;
+}
+.brends .brends-items {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+}
+.brends .brends-items .brend-item {
+  padding: 20px;
+  display: flex;
+}
+.brends .brends-items .brend-item img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .brends .brends-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .brends .brends-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 footer {
   background-color: #1F1D14;
   padding: 50px 0px 0px 0px;
