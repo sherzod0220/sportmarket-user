@@ -1,0 +1,112 @@
+.gantel-hero{
+    width: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    display: flex;
+    gap: 20px;
+    background-color: #F2F2F2;
+    .gantel-hero__img{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .gantel-hero__img__top{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 10px;
+            img{
+                width: 60%;
+            }
+        }
+        .gantel-hero__img__items{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            gap: 15px;
+            .gantel-hero__img__item{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                padding: 15px 0;
+                border-radius: 5px;
+                img{
+                    width: 80%;
+                }
+            }
+        }
+    }
+    .gantel-hero__info{
+        width: 40%;
+        background-color: white;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h1{
+            font-size: 42px;
+        }
+        h3{
+            span{
+                font-weight: 100;
+                font-size: 14px;
+            }
+        }
+        .gantel-hero__info__btn{
+            display: flex;
+            gap: 15px;
+            .gantel-hero__info__btn1{
+                padding: 15px 30px;
+                border: none;
+                border-radius: 10px;
+                background-color: #FBD029;
+            }
+            .gantel-hero__info__btn2{
+                padding: 15px 30px;
+                border-radius: 10px;
+                border:2px solid #FBD029;
+                background-color: transparent;
+            }
+        }
+        h4{
+            font-weight: 100;
+            display: flex;
+            gap: 10px;
+            margin-top: 25px;
+        }
+    }
+}
+
+@media(max-width:1670px){
+    .gantel-hero{
+        .gantel-hero__img{
+            .gantel-hero__img__top{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .gantel-hero__info{
+            gap: 10px;
+        }
+    }
+}
+@media(max-width: 992px){
+    .gantel-hero{
+        flex-direction: column;
+        .gantel-hero__img{
+            width: 100%;
+            .gantel-hero__img__top{
+                img{
+                    width: 50%;
+                }
+            }
+        }
+        .gantel-hero__info{
+            width: 100%;
+            gap: 20px;
+        }
+    }
+}

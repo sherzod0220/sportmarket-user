@@ -1,5 +1,8 @@
 header{
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 
     // height: 150px;
     .navbar1{
@@ -60,6 +63,7 @@ header{
         // background-color: skyblue;
         display: flex;
         align-items: center;
+        background-color: white;
         height: 60px;
         justify-content: space-between;
         .navtwo-left{

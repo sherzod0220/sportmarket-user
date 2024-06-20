@@ -1,0 +1,116 @@
+.poleznoe{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    background-color: #F2F2F2;
+    .poleznoe-items{
+        gap: 30px;
+        display: flex;
+        .poleznoe-item1{
+            width: 50%;
+            background-color: white;
+            padding: 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 10px;
+            .poleznoe-item__text{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding-right: 10%;
+                h1{
+                    font-size: 36px;
+                    color: #1F1D14;
+                }
+                p{
+                    color: #1F1D14;
+                }
+            }
+            .poleznoe-item__date{
+                display: flex;
+                gap: 40px;
+                align-items: center;
+            }
+        }
+        .poleznoe-item2{
+            background-color: #F2F2F2;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 50%;
+            .poleznoe-item__img{
+                background-color: white;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 50%;
+                }
+            }
+            button{
+                padding: 15px 0;
+                border: none;
+                border-radius: 5px;
+                background-color: white;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width:1600px){
+    .poleznoe{
+        .poleznoe-items{
+            .poleznoe-item1{
+                .poleznoe-item__text{
+                    padding-right: 0;
+                    h1{
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1250px){
+    .poleznoe{
+        .poleznoe-items{
+            .poleznoe-item1{
+                .poleznoe-item__text{
+                    h1{
+                        font-size: 26px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 992px){
+    .poleznoe{
+        .poleznoe-items{
+            flex-direction: column;
+            .poleznoe-item1{
+                width: 100%;
+                gap: 50px;
+                .poleznoe-item__text{
+                    h1{
+                        font-size: 26px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+            .poleznoe-item2{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.opisanie{
+    width: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    background-color: #F2F2F2;
+    display: flex;
+    gap: 20px;
+    .opisanie1{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 50%;
+        .opisanie1-box{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+
+        }
+    }
+}

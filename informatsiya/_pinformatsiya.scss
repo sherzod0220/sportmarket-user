@@ -1,0 +1,47 @@
+.informatsiya{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background-color: #F2F2F2;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    .informatsiya-items{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        .informatsiya-item{
+            background-color: white;
+            padding: 35px 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 45px;
+            .informatsiya-item__text{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .informatsiya-item__date{
+                display: flex;
+                align-items: center;
+                gap: 40px;
+            }
+        }
+    }
+    button{
+        width: 160px;
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: 2px solid #FBD029;
+    }
+}
+
+@media(max-width: 768px){
+    .informatsiya{
+        .informatsiya-items{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
