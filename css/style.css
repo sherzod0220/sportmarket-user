@@ -821,9 +821,47 @@ header .navbar2 .navtwo-right .nav-right__btn {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px;
+  padding: 50px 20px;
+}
+.opisanie .opisanie1 .opisanie1-box .opisanie1-box__items {
+  display: flex;
+  gap: 35px;
+  margin-top: 40px;
+}
+.opisanie .opisanie1 .opisanie1-box .opisanie1-box__items span {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.opisanie .opisanie1 .opisanie1-box .opisanie1-box__item2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 7%;
+}
+.opisanie .opisanie1 .opisanie1-box .opisanie1-box__item2 h5 {
+  color: rgba(31, 29, 20, 0.3490196078);
+}
+.opisanie .opisanie1 .opisanie1-box .opisanie1-box__item2 p {
+  margin-top: 40px;
+}
+.opisanie .opisanie1 .opisanie1-box .opisanie1-box__item2 span {
+  display: flex;
+  gap: 5px;
+  font-size: 18px;
+}
+.opisanie .opisanie1 .opisanie1-box .opisanie1-box__item2 span i {
+  color: gold;
 }
 
+@media (max-width: 992px) {
+  .opisanie {
+    flex-direction: column;
+  }
+  .opisanie .opisanie1 {
+    width: 100%;
+  }
+}
 footer {
   width: 100%;
   background-color: #1F1D14;
